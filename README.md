@@ -21,4 +21,13 @@
 
 ### I processed and cleaned the dataset, then ran various models to see if I could make a naive prediction on what rating a given anime might get.
 
-### I used Linear Regression as a baseline, and then tried improving upon it with both Random Forest and XGBoost models, which can be found in the notebooks section.
+### I used Linear Regression as a baseline, and then tried improving upon it with both Random Forest and XGBoost models, which can be found in the notebooks section. Below is some dataviz using Seaborn (all code in notebook)
+
+## Model Accuracy Comparison
+
+![accuracy1](images/accuracy1.png)
+![accuracy2](images/accuracy2.png)
+
+### Feature Importance
+
+![feature_importance](images/leakage_fix.png)
